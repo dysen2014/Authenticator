@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">身份验证器</string>
+    <string name="enter_key_page_add_button" msgid="7145413404890383746">添加</string>
+    <string name="button_add_account" msgid="4301500554118934829">添加帐户</string>
+    <string name="button_add_account_manual_entry" msgid="7234157710472604378"><p>没有 QR 码? <font color="#3F51B5" > <u>请手动添加帐户</u></font></p></string>
+    <string name="button_add_account_scan_barcode" msgid="4400516455038574606">\t 扫描 QR 码</string>
+    <string name="enter_account_label" msgid="1488259241384211529">输入帐户名称</string>
+    <string name="enter_key_hint" msgid="480564521423532185">输入您的密钥</string>
+    <string name="enter_key_too_short" msgid="1883571748860519725">密钥值太短</string>
+    <string name="enter_key_illegal_char" msgid="5667180343359002748">密钥值中含有非法字符</string>
+    <string name="secret_saved" msgid="2201025202465443226">密钥已保存</string>
+    <string name="error_empty_secret" msgid="1889970426144134666">无法保存空密钥</string>
+    <string name="enter_pin" msgid="2238539410253130912">在登录帐户期间，如果提示输入验证码，请输入此验证码：</string>
+    <string name="check_code_menu_item" msgid="6851230890695316742">检查密钥值</string>
+    <string name="submit" msgid="1518558163262431303">保存</string>
+    <string name="cancel" msgid="5705561042616477184">取消</string>
+    <string name="context_menu_remove_account" msgid="2776049374428247354">删除</string>
+    <string name="remove_account_dialog_button_remove" msgid="1115752492175745669">删除帐户</string>
+    <string name="remove_account_dialog_title" msgid="3627142692332624397">是否删除 <xliff:g id="ACCOUNT">%1$s</xliff:g>？</string>
+    <string name="remove_account_dialog_message" msgid="5152134907192755352">删除该帐户会&lt;b&gt;导致您无法&lt;/b&gt;生成验证码，但&lt;b&gt;不会&lt;/b&gt;关闭双重身份验证。您可能会因此无法登录自己的帐户。&lt;p&gt;在删除该帐户之前，请执行以下操作：&lt;ul&gt;&lt;li&gt;关闭该帐户的两双重身份验证功能，或者&lt;/li&gt;&lt;li&gt;确保您可以通过其他方法生成验证码。&lt;/li&gt; &lt;/ul&gt;</string>
+    <string name="remove_google_account_dialog_message" msgid="5734774722876234898">删除该帐户会&lt;b&gt;导致您无法&lt;/b&gt;生成验证码，但&lt;b&gt;不会&lt;/b&gt;关闭两步验证。您可能会因此无法登录自己的帐户。&lt;p&gt;在删除该帐户之前，请执行以下操作：&lt;ul&gt;&lt;li&gt;关闭该帐户的两步验证，或者&lt;/li&gt;&lt;li&gt;确保您可以通过其他方法生成验证码。&lt;/li&gt; &lt;/ul&gt;</string>
+    <string name="rename" msgid="4407492613148938173">重命名</string>
+    <string name="rename_message" msgid="5929955206098259018">重命名 <xliff:g id="ACCOUNT">%1$s</xliff:g></string>
+    <string name="error_exists" msgid="9037595140877350695">抱歉，此名称已在使用。</string>
+    <string name="copy_to_clipboard" msgid="9220543434521756454">复制到剪贴板</string>
+    <string name="counter_pin" msgid="6520222181829297474">获取代码</string>
+    <string name="empty_pin" msgid="2123950169339395812">_ _ _ _ _ _</string>
+    <string name="type_prompt" msgid="5595994960218859859">密钥类型</string>
+    <string-array name="type">
+        <item msgid="7456778849112065121">基于时间</item>
+        <item msgid="5212912099902129712">基于计数器</item>
+    </string-array>
+    <string name="tip_add_account">添加新的账户</string>
+    <string name="tip_add_account_content" >请输入您的 Autheticator 的名称和密钥.</string>
+</resources>

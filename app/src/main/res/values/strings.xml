@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Test App</string>
+    <string name="jump_authenticator">启动身份验证器</string>
+</resources>
