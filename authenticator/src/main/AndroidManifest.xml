@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tool:replace="android:label,android:theme, android:icon">
+        tool:replace="android:label,android:theme, android:icon, android:name">
 
         <activity android:name=".AuthenticatorActivity"
             android:launchMode="singleTask">
